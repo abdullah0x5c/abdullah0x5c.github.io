@@ -39,16 +39,28 @@ export const books: SimpleItem[] = [
 
 export const youtubeVideos: LinkItem[] = [
   {
-    name: "How To Get Rich - Naval Ravikant",
-    link: "https://www.youtube.com/watch?v=1-TZqOsVCNM",
-  },
-  {
     name: "The Last Lecture - Randy Pausch",
     link: "https://www.youtube.com/watch?v=ji5_MqicxSo",
   },
   {
     name: "Steve Jobs Stanford Commencement Speech",
     link: "https://www.youtube.com/watch?v=UF8uR6Z6KLc",
+  },
+  {
+    name: "Video Title 1",  // ← Update this title
+    link: "https://www.youtube.com/watch?v=0y6wiBzPMSI",
+  },
+  {
+    name: "Video Title 2",  // ← Update this title
+    link: "https://www.youtube.com/watch?v=UzXvptnggoY",
+  },
+  {
+    name: "Video Title 3",  // ← Update this title
+    link: "https://www.youtube.com/watch?v=0iLzdBWfzZk",
+  },
+  {
+    name: "Fixing a Lathe Machine",  // ← Update this title
+    link: "https://www.youtube.com/watch?v=BuQZeiAugp4",
   },
   // Add more videos here 👆
 ];
@@ -84,7 +96,7 @@ export const coolPeople: LinkItem[] = [
     link: "https://zaynikhlaq.xyz/"
   },
   {
-    name: "Tamseel Ahmed",
+    name: "Tamseel Ahmad",
     link: "https://tamseel.pk"
   }
   // Add more people here 👆
