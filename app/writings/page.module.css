@@ -1,0 +1,60 @@
+/* Writings list page styles */
+.writings {
+  padding-top: 2rem;
+}
+
+.writings > h1 {
+  margin-bottom: 0.5rem;
+}
+
+.writings > p {
+  margin-bottom: 2rem;
+  color: var(--link-hover);
+}
+
+.postList {
+  display: flex;
+  flex-direction: column;
+  gap: 1.5rem;
+}
+
+.postItem {
+  display: block;
+  padding-bottom: 1.5rem;
+  border-bottom: 1px solid var(--border-color);
+}
+
+.postItem:last-child {
+  border-bottom: none;
+}
+
+.postMeta {
+  margin-bottom: 0.25rem;
+}
+
+.postDate {
+  font-size: 0.875rem;
+  color: var(--link-hover);
+}
+
+.postTitle {
+  font-size: 1.25rem;
+  margin-bottom: 0.5rem;
+}
+
+.postItem:hover .postTitle {
+  text-decoration: underline;
+  text-underline-offset: 4px;
+}
+
+.postDescription {
+  font-size: 0.9rem;
+  color: var(--link-hover);
+  margin: 0;
+}
+
+.empty {
+  color: var(--link-hover);
+}
+
+

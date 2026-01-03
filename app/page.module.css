@@ -1,0 +1,45 @@
+/* About page styles */
+.about {
+  padding-top: 2rem;
+}
+
+.about h1 {
+  margin-bottom: 1.5rem;
+}
+
+.about p {
+  margin-bottom: 1.25rem;
+  max-width: 600px;
+}
+
+/* Say hi link */
+.sayHi {
+  margin-top: 1.5rem;
+}
+
+.sayHiLink {
+  text-decoration: underline;
+  text-underline-offset: 3px;
+}
+
+.sayHiLink:hover {
+  color: var(--link-hover);
+}
+
+/* Social links */
+.socials {
+  display: flex;
+  gap: 1.5rem;
+  margin-top: 1.5rem;
+}
+
+.socials a {
+  color: var(--link-hover);
+  text-decoration: none;
+}
+
+.socials a:hover {
+  color: var(--text-color);
+  text-decoration: underline;
+  text-underline-offset: 3px;
+}

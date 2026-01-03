@@ -1,0 +1,93 @@
+/* Individual writing post styles */
+.article {
+  padding-top: 2rem;
+  max-width: 650px;
+}
+
+.header {
+  margin-bottom: 2rem;
+}
+
+.backLink {
+  display: inline-block;
+  font-size: 0.875rem;
+  color: var(--link-hover);
+  margin-bottom: 1.5rem;
+}
+
+.backLink:hover {
+  color: var(--text-color);
+}
+
+.header h1 {
+  margin-bottom: 0.5rem;
+}
+
+.date {
+  font-size: 0.875rem;
+  color: var(--link-hover);
+}
+
+.content {
+  line-height: 1.8;
+}
+
+.content h1,
+.content h2,
+.content h3 {
+  margin-top: 2rem;
+  margin-bottom: 1rem;
+}
+
+.content p {
+  margin-bottom: 1.25rem;
+}
+
+.content ul,
+.content ol {
+  margin-bottom: 1.25rem;
+  padding-left: 1.5rem;
+}
+
+.content li {
+  margin-bottom: 0.5rem;
+}
+
+.content blockquote {
+  border-left: 2px solid var(--border-color);
+  padding-left: 1rem;
+  margin: 1.5rem 0;
+  color: var(--link-hover);
+  font-style: italic;
+}
+
+.content code {
+  background-color: #1a1a1a;
+  padding: 0.2rem 0.4rem;
+  border-radius: 3px;
+  font-size: 0.9em;
+}
+
+.content pre {
+  background-color: #1a1a1a;
+  padding: 1rem;
+  overflow-x: auto;
+  margin: 1.5rem 0;
+  border-radius: 4px;
+}
+
+.content pre code {
+  background: none;
+  padding: 0;
+}
+
+.content a {
+  text-decoration: underline;
+  text-underline-offset: 3px;
+}
+
+.content a:hover {
+  color: var(--link-hover);
+}
+
+
