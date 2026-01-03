@@ -69,7 +69,8 @@ export const youtubeVideos: LinkItem[] = [
 export const movies: SimpleItem[] = [
   { name: "Whiplash" },
   { name: "Dead Poets Society"},
-  { name: "Tenet"}
+  { name: "Tenet"},
+  { name: "Good Will Hunting"}
   // Add more movies here 👆
 ];
 
