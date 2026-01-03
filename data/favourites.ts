@@ -38,30 +38,26 @@ export const books: SimpleItem[] = [
 // ============================================
 
 export const youtubeVideos: LinkItem[] = [
-  {
-    name: "The Last Lecture - Randy Pausch",
-    link: "https://www.youtube.com/watch?v=ji5_MqicxSo",
-  },
-  {
-    name: "Steve Jobs Stanford Commencement Speech",
-    link: "https://www.youtube.com/watch?v=UF8uR6Z6KLc",
-  },
-  {
-    name: "Video Title 1",  // ← Update this title
-    link: "https://www.youtube.com/watch?v=0y6wiBzPMSI",
-  },
-  {
-    name: "Video Title 2",  // ← Update this title
-    link: "https://www.youtube.com/watch?v=UzXvptnggoY",
-  },
-  {
-    name: "Video Title 3",  // ← Update this title
-    link: "https://www.youtube.com/watch?v=0iLzdBWfzZk",
-  },
-  {
-    name: "Fixing a Lathe Machine",  // ← Update this title
-    link: "https://www.youtube.com/watch?v=BuQZeiAugp4",
-  },
+    {
+        name: "everybody is a total mess (and you should be one too)", 
+        link: "https://www.youtube.com/watch?v=0y6wiBzPMSI",
+    },
+    {
+        name: "The Last Lecture - Randy Pausch",
+        link: "https://www.youtube.com/watch?v=ji5_MqicxSo",
+    },
+    {
+        name: "Steve Jobs Stanford Commencement Speech",
+        link: "https://www.youtube.com/watch?v=UF8uR6Z6KLc",
+    },
+    {
+        name: "My epiphany of passion",  
+        link: "https://www.youtube.com/watch?v=UzXvptnggoY",
+    },
+    {
+        name: "Bought a Broken CNC Lathe They Don’t Want Me to Fix",  
+        link: "https://www.youtube.com/watch?v=BuQZeiAugp4",
+    },
   // Add more videos here 👆
 ];
 
