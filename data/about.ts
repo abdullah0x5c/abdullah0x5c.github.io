@@ -13,7 +13,7 @@ export const about = {
   
   // Bio paragraphs - each string is a new paragraph
   bio: [
-    "I am a CS sopho who loves Computers (obviously), electronics, making cool shit and anything that sparks my curiosity.",
+    "I am a CS junior year student who loves Computers (obviously), electronics, making cool shit and anything that sparks my curiosity.",
   ],
 
   // Email for "say hi" link
