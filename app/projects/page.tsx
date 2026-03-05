@@ -8,18 +8,25 @@ export default function Projects() {
       <h1>Projects</h1>
       <p>Things I&apos;ve built.</p>
       <div className={styles.cardGrid}>
-        {projects.map((project) => (
-          <Link
-            key={project.title}
-            href={project.link}
-            target="_blank"
-            rel="noopener noreferrer"
-            className={styles.card}
-          >
-            <h2>{project.title}</h2>
-            <p>{project.description}</p>
-          </Link>
-        ))}
+        {projects.map((project) =>
+          project.link ? (
+            <Link
+              key={project.title}
+              href={project.link}
+              target="_blank"
+              rel="noopener noreferrer"
+              className={styles.card}
+            >
+              <h2>{project.title}</h2>
+              <p>{project.description}</p>
+            </Link>
+          ) : (
+            <div key={project.title} className={styles.card}>
+              <h2>{project.title}</h2>
+              <p>{project.description}</p>
+            </div>
+          )
+        )}
       </div>
     </div>
   );

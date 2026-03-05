@@ -14,7 +14,8 @@
 export interface Project {
   title: string;
   description: string;
-  link: string;
+  /** Optional – omit for projects with no live link (e.g. private or WhatsApp-only). */
+  link?: string;
 }
 
 export const projects: Project[] = [
@@ -22,10 +23,20 @@ export const projects: Project[] = [
   
   {
     title: "Intake.AI",
-    description: "Ai dentist reserbvation system.",
+    description: "AI-powered dentist reservation and booking system.",
     link: "https://github.com/ZaynIkhlaq/Intake.AI-ESP",
-  }
-  
+  },
+  {
+    title: "Shuttledeeznust",
+    description: "Realtime shuttle tracking across NUST campus.",
+    link: "https://shuttledeeznust.com",
+  },
+  {
+    title: "Momo Bot",
+    description: "WhatsApp bot for my class to avoid forgetting about submission deadlines.",
+    // no link
+  },
+
   // Add more projects above this line 👆
 ];
 
