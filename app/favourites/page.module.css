@@ -1,6 +1,7 @@
 /* Favourites page styles */
 .favourites {
   padding-top: 2rem;
+  max-width: 800px;
 }
 
 .favourites h1 {

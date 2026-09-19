@@ -1,6 +1,7 @@
 /* Writings list page styles */
 .writings {
   padding-top: 2rem;
+  max-width: 800px;
 }
 
 .writings > h1 {

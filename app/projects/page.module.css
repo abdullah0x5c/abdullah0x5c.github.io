@@ -49,6 +49,7 @@
 
 .cardBody {
   padding: 1rem 1.25rem 1.25rem;
+  flex: 1;
 }
 
 .cardBody h2 {

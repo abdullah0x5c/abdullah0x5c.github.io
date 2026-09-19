@@ -1,6 +1,7 @@
 /* About page styles */
 .about {
   padding-top: 2rem;
+  max-width: 800px;
 }
 
 .about h1 {
