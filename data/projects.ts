@@ -25,6 +25,18 @@ export const projects: Project[] = [
   // Add your projects below this line 👇
 
   {
+    title: "Intake.AI",
+    description: "AI-powered dentist reservation and booking system.",
+    link: "https://intake-ai-mvp.vercel.app",
+    preview: "/previews/intake-ai.jpg",
+  },
+  {
+    title: "Shuttledeeznust",
+    description: "Realtime shuttle tracking across NUST campus.",
+    link: "https://shuttledeeznust.com",
+    preview: "/previews/shuttledeeznust.jpg",
+  },
+  {
     title: "Agent Workbench",
     description:
       "Visual LLM agent orchestrator: wire agents, tools and memory on a canvas, run the graph and watch every reasoning step, tool call and prompt live.",
@@ -54,14 +66,11 @@ export const projects: Project[] = [
   },
 
   {
-    title: "Intake.AI",
-    description: "AI-powered dentist reservation and booking system.",
-    link: "https://github.com/ZaynIkhlaq/Intake.AI-ESP",
-  },
-  {
-    title: "Shuttledeeznust",
-    description: "Realtime shuttle tracking across NUST campus.",
-    link: "https://shuttledeeznust.com",
+    title: "Founding Fathers of Pakistan",
+    description:
+      "An interactive, scroll-told history of the people who founded Pakistan.",
+    link: "https://founding-fathers-of-pakistan.vercel.app",
+    preview: "/previews/founding-fathers-of-pakistan.jpg",
   },
   {
     title: "Momo Bot",
